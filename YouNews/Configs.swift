@@ -47,19 +47,23 @@ let YOUR_APP_STORE_LINK = "https://itunes.apple.com/us/app/cubimaze-an-impossibl
 
 // NEWS CATEGORIES ARRAY
 let newsCategories = [
-    "politics",
-    "world",
-    "fashion",
-    "business",
-    "technology",
-    "science",
-    "health",
-    "entertainment",
-    "sport",
+//    "politics",
+//    "world",
+//    "fashion",
+//    "business",
+//    "technology",
+//    "science",
+//    "health",
+//    "entertainment",
+//    "sport",
     
     // YOU CAN ADD MORE CATEGORIES HERE, JUST REMEMBER TO ALSO ADD THEIR RELATIVE ICON IMAGES
     // INTO: Assets.xcassets/CATEGORIES
     
+    "CSSA活动",
+    "学校",
+    "领事馆",
+    "学校资源"
 ]
 
 

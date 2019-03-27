@@ -83,7 +83,7 @@ override func viewDidLoad() {
         if error == nil {
             self.dismiss(animated: true, completion: nil)
             self.hideHUD()
-                
+            
         // Login failed. Try again or SignUp
         } else {
             self.simpleAlert("\(error!.localizedDescription)")

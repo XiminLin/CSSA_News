@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="CMi-E5-S4Q">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="CMi-E5-S4Q">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -836,7 +836,7 @@
                                         <connections>
                                             <outlet property="categoryOutlet" destination="AB0-aK-587" id="RZn-bX-Xr6"/>
                                             <outlet property="dateLabel" destination="1TF-bD-Sd0" id="QDX-rK-MYo"/>
-                                            <outlet property="newsImage" destination="FEB-r4-GJ0" id="6pK-Fz-JaN"/>
+                                            <outlet property="newsImage" destination="FEB-r4-GJ0" id="Yvq-hI-EOI"/>
                                             <outlet property="newsTextLabel" destination="uBR-qM-fd2" id="ZQf-vG-TvI"/>
                                             <outlet property="titleLabel" destination="Ulb-lE-hfV" id="bAX-zY-fV0"/>
                                         </connections>
@@ -880,7 +880,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="swF-IK-OZN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5086.3999999999996" y="1179.3103448275863"/>
+            <point key="canvasLocation" x="-5239" y="1208"/>
         </scene>
         <!--Home-->
         <scene sceneID="sN1-dI-U5C">
@@ -1088,7 +1088,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tU1-IY-Uld" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4404.8000000000002" y="922.93853073463276"/>
+            <point key="canvasLocation" x="-4410" y="548"/>
         </scene>
         <!--Categories-->
         <scene sceneID="JaK-zI-Bzj">
@@ -1117,7 +1117,7 @@
                                 <color key="backgroundColor" red="0.30904141169999999" green="0.8596133185" blue="0.92284650260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="68" sectionHeaderHeight="28" sectionFooterHeight="28" id="NWk-kd-E2T">
-                                <rect key="frame" x="0.0" y="64" width="375" height="604"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="665"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -1162,7 +1162,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jIB-HG-5YR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3688.8000000000002" y="1734.3328335832086"/>
+            <point key="canvasLocation" x="-3688.8000000000002" y="1734.2364532019706"/>
         </scene>
         <!--Categories-->
         <scene sceneID="SsB-Ix-cNm">
@@ -1181,7 +1181,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y3E-nN-fJy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3684.8000000000002" y="922.93853073463276"/>
+            <point key="canvasLocation" x="-3639" y="902"/>
         </scene>
         <!--Settings-->
         <scene sceneID="5GU-h3-CAP">
@@ -1282,7 +1282,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bO0-Da-c9m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2969.5999999999999" y="922.93853073463276"/>
+            <point key="canvasLocation" x="-2815" y="901"/>
         </scene>
         <!--Comments-->
         <scene sceneID="Rj4-xd-2My">
@@ -1432,26 +1432,26 @@
         </scene>
     </scenes>
     <resources>
-        <image name="back_butt" width="132" height="132"/>
-        <image name="bkgImage" width="1200" height="675"/>
-        <image name="comment_butt" width="132" height="132"/>
-        <image name="dismissButt" width="132" height="132"/>
-        <image name="facebook_butt" width="520" height="88"/>
-        <image name="image_placeholder" width="900" height="450"/>
-        <image name="like_butt" width="132" height="132"/>
-        <image name="logo" width="300" height="300"/>
-        <image name="logout_butt" width="132" height="132"/>
-        <image name="miniEmail" width="132" height="132"/>
-        <image name="miniLock" width="132" height="132"/>
-        <image name="miniUser" width="132" height="132"/>
-        <image name="overlay" width="750" height="1334"/>
-        <image name="play_butt" width="240" height="240"/>
-        <image name="read_icon" width="132" height="132"/>
-        <image name="refresh_butt" width="132" height="132"/>
-        <image name="share_butt" width="132" height="132"/>
-        <image name="tab_categories" width="132" height="132"/>
-        <image name="tab_home" width="132" height="132"/>
-        <image name="tab_settings" width="132" height="132"/>
-        <image name="top_line" width="800" height="160"/>
+        <image name="back_butt" width="44" height="44"/>
+        <image name="bkgImage" width="400" height="225"/>
+        <image name="comment_butt" width="44" height="44"/>
+        <image name="dismissButt" width="44" height="44"/>
+        <image name="facebook_butt" width="173.33332824707031" height="29.333333969116211"/>
+        <image name="image_placeholder" width="300" height="150"/>
+        <image name="like_butt" width="44" height="44"/>
+        <image name="logo" width="100" height="100"/>
+        <image name="logout_butt" width="44" height="44"/>
+        <image name="miniEmail" width="44" height="44"/>
+        <image name="miniLock" width="44" height="44"/>
+        <image name="miniUser" width="44" height="44"/>
+        <image name="overlay" width="250" height="444.66665649414062"/>
+        <image name="play_butt" width="80" height="80"/>
+        <image name="read_icon" width="44" height="44"/>
+        <image name="refresh_butt" width="44" height="44"/>
+        <image name="share_butt" width="44" height="44"/>
+        <image name="tab_categories" width="44" height="44"/>
+        <image name="tab_home" width="44" height="44"/>
+        <image name="tab_settings" width="44" height="44"/>
+        <image name="top_line" width="266.66665649414062" height="53.333332061767578"/>
     </resources>
 </document>
